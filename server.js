@@ -9,6 +9,6 @@ mongoose.connect(url)
 .catch(err=>console.log(err));
 
 app.use(express.json());
-app.use("/products",productrouter);
+app.use("/",productrouter);
 
 
